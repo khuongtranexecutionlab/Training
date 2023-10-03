@@ -1,0 +1,83 @@
+.nav-header {
+  margin-left: 45px;
+  margin-top: 30px;
+}
+@media screen and (max-width: 767px) {
+  .nav-header {
+    margin-left: 20px;
+  }
+}
+.nav-header > ul {
+  display: flex;
+  gap: 20px;
+}
+@media screen and (max-width: 767px) {
+  .nav-header > ul {
+    display: none;
+  }
+}
+.nav-header .nav-icon {
+  justify-content: end;
+  display: flex;
+  margin-right: 32px;
+}
+.nav-header .nav-icon img {
+  width: 70px;
+  height: 70px;
+}
+.nav-header .banner .banner-left h1 {
+  color: #642c99;
+  font-family: "Wendy One";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 510px;
+}
+@media screen and (max-width: 767px) {
+  .nav-header .banner .banner-left h1 {
+    width: 310px;
+  }
+}
+.nav-header .banner .banner-left p {
+  width: 480px;
+  color: #642c99;
+  margin: 20px 0;
+}
+@media screen and (max-width: 767px) {
+  .nav-header .banner .banner-left p {
+    width: 310px;
+  }
+}
+.nav-header .banner .banner-left button {
+  display: block;
+  border-radius: 8px;
+  background: #642c99;
+  padding: 12px 24px;
+  color: #fbfac9;
+}
+@media screen and (max-width: 767px) {
+  .nav-header .banner .banner-left button {
+    display: none;
+  }
+}
+.nav-header .banner .banner-left .banner-left-mobile {
+  border-radius: 8px;
+  background: #642c99;
+  padding: 12px 24px;
+  color: #fbfac9;
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .nav-header .banner .banner-left .banner-left-mobile {
+    display: block;
+  }
+}
+.nav-header .banner .banner-right {
+  background: url("/asset/image/banner-right.png") no-repeat;
+  width: 365px;
+  height: 716px;
+  position: absolute;
+  top: 30%;
+  right: 0;
+}/*# sourceMappingURL=header.css.map */

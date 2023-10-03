@@ -1,0 +1,77 @@
+@import "../reponsive/reponsive.scss";
+
+.nav-header {
+  margin-left: 45px;
+  margin-top: 30px;
+  @include responsive {
+    margin-left: 20px;
+  }
+  & > ul {
+    display: flex;
+    gap: 20px;
+    @include responsive {
+      display: none;
+    }
+  }
+  & .nav-icon {
+    justify-content: end;
+    display: flex;
+    margin-right: 32px;
+    & img {
+      width: 70px;
+      height: 70px;
+    }
+  }
+  & .banner {
+    & .banner-left {
+      & h1 {
+        color: #642c99;
+        font-family: "Wendy One";
+        font-size: 100px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 510px;
+        @include responsive {
+          width: 310px;
+        }
+      }
+      & p {
+        width: 480px;
+        color: #642c99;
+        margin: 20px 0;
+        @include responsive {
+          width: 310px;
+        }
+      }
+      & button {
+        display: block;
+        border-radius: 8px;
+        background: #642c99;
+        padding: 12px 24px;
+        color: #fbfac9;
+        @include responsive {
+          display: none;
+        }
+      }
+      & .banner-left-mobile {
+        border-radius: 8px;
+        background: #642c99;
+        padding: 12px 24px;
+        color: #fbfac9;
+        display: none;
+        @include responsive {
+          display: block;
+        }
+      }
+    }
+    & .banner-right {
+      background: url("/asset/image/banner-right.png") no-repeat;
+      width: 365px;
+      height: 716px;
+      position: absolute;
+      top: 30%;
+      right: 0;
+    }
+  }
+}
