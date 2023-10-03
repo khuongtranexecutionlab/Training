@@ -74,15 +74,9 @@
 }
 
 .close {
-  color: #aaaaaa;
+  color: #642c99;
   float: right;
   font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
   cursor: pointer;
+  font-weight: bold;
 }/*# sourceMappingURL=modal.css.map */
