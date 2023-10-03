@@ -24,6 +24,7 @@
 @media screen and (max-width: 767px) {
   .celebrating .mobile-celebrating {
     display: block;
+    height: 800px;
   }
 }
 .celebrating .content-celebrating {
@@ -48,7 +49,7 @@
 @media screen and (max-width: 767px) {
   .celebrating .content-celebrating h1 {
     font-size: 42px;
-    width: 322px;
+    width: 300px;
   }
 }
 .celebrating .content-celebrating p {
@@ -61,7 +62,7 @@
 }
 @media screen and (max-width: 767px) {
   .celebrating .content-celebrating p {
-    width: 333px;
+    width: 300px;
   }
 }
 .celebrating .content-celebrating .middle-content-celebrating {
@@ -74,7 +75,18 @@
   justify-content: center;
   width: 100%;
 }
+@media screen and (max-width: 767px) {
+  .celebrating .middle-banner {
+    top: 80%;
+    width: 95%;
+  }
+}
 .celebrating .middle-banner img {
   width: 95%;
   height: 500px;
+}
+@media screen and (max-width: 767px) {
+  .celebrating .middle-banner img {
+    height: initial;
+  }
 }/*# sourceMappingURL=celebrating.css.map */

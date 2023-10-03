@@ -12,6 +12,12 @@
     @include responsive {
       display: none;
     }
+    & li {
+      color: #642c99;
+    }
+    & li:first-child {
+      font-weight: bold;
+    }
   }
   & .nav-icon {
     justify-content: end;

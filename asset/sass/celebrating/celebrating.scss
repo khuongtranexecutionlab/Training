@@ -20,6 +20,7 @@
 
     @include responsive {
       display: block;
+      height: 800px;
     }
   }
   & .content-celebrating {
@@ -39,7 +40,7 @@
       line-height: normal;
       @include responsive {
         font-size: 42px;
-        width: 322px;
+        width: 300px;
       }
     }
     & p {
@@ -50,7 +51,7 @@
       line-height: 26px;
       width: 593px;
       @include responsive {
-        width: 333px;
+        width: 300px;
       }
     }
     & .middle-content-celebrating {
@@ -63,9 +64,16 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    @include responsive {
+      top: 80%;
+      width: 95%;
+    }
     & img {
       width: 95%;
       height: 500px;
+      @include responsive {
+        height: initial;
+      }
     }
   }
 }

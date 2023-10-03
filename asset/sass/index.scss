@@ -1,4 +1,5 @@
-@import "./header/header.scss", "./celebrating/celebrating.scss";
+@import "./header/header.scss", "./celebrating/celebrating.scss",
+  "./simplesweet/simplesweet.scss", "./footer/footer.scss";
 
 * {
   box-sizing: border-box;
@@ -12,8 +13,10 @@ body {
 
 li {
   list-style: none;
+  cursor: pointer;
 }
 
 button {
   border: none;
+  cursor: pointer;
 }
