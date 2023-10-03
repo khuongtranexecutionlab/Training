@@ -37,6 +37,7 @@
 @media screen and (max-width: 767px) {
   .nav-header .banner .banner-left h1 {
     width: 310px;
+    font-size: 60px;
   }
 }
 .nav-header .banner .banner-left p {
@@ -78,6 +79,16 @@
   width: 365px;
   height: 716px;
   position: absolute;
-  top: 30%;
-  right: 0;
+  top: 5%;
+  right: 15%;
+  z-index: 1;
+}
+@media screen and (max-width: 767px) {
+  .nav-header .banner .banner-right {
+    width: 266px;
+    height: 356px;
+    top: 60%;
+    right: 0;
+    background: url("/asset/image/nav-mobile.png") no-repeat;
+  }
 }/*# sourceMappingURL=header.css.map */

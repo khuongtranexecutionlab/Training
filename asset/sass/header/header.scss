@@ -34,6 +34,7 @@
         width: 510px;
         @include responsive {
           width: 310px;
+          font-size: 60px;
         }
       }
       & p {
@@ -70,8 +71,17 @@
       width: 365px;
       height: 716px;
       position: absolute;
-      top: 30%;
-      right: 0;
+      top: 5%;
+      right: 15%;
+      z-index: 1;
+
+      @include responsive {
+        width: 266px;
+        height: 356px;
+        top: 60%;
+        right: 0;
+        background: url("/asset/image/nav-mobile.png") no-repeat;
+      }
     }
   }
 }

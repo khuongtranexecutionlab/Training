@@ -1,0 +1,71 @@
+@import "../reponsive/reponsive.scss";
+
+.celebrating {
+  margin-top: 150px;
+  position: relative;
+  @include responsive {
+    margin-top: 250px;
+  }
+  & > img {
+    display: block;
+    width: 100%;
+    height: 1200px;
+    @include responsive {
+      display: none;
+    }
+  }
+  & .mobile-celebrating {
+    display: none;
+    width: 100%;
+
+    @include responsive {
+      display: block;
+    }
+  }
+  & .content-celebrating {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    @include responsive {
+      left: 8%;
+    }
+    & h1 {
+      color: #feefd0;
+      font-family: "Wendy One";
+      font-size: 70px;
+      font-style: normal;
+      font-weight: 400;
+      width: 530px;
+      line-height: normal;
+      @include responsive {
+        font-size: 42px;
+        width: 322px;
+      }
+    }
+    & p {
+      color: #feefd0;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+      width: 593px;
+      @include responsive {
+        width: 333px;
+      }
+    }
+    & .middle-content-celebrating {
+      margin: 40px 0;
+    }
+  }
+  & .middle-banner {
+    position: absolute;
+    top: 65%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    & img {
+      width: 95%;
+      height: 500px;
+    }
+  }
+}
