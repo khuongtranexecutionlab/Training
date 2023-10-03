@@ -30,6 +30,7 @@
 .nav-header .nav-icon img {
   width: 70px;
   height: 70px;
+  cursor: pointer;
 }
 .nav-header .banner .banner-left h1 {
   color: #642c99;
